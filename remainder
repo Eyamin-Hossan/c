@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,x,r;
+    printf("The devidend :");
+    scanf("%d",&a);
+    printf("The devisor :");
+    scanf("%d",&b);
+    x=a/b;
+    r=a-b*x;
+    printf("The remainder : %d",r);
+
+    return 0;
+}
