@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float c,s,n;
+    printf("Cost price : ");
+    scanf("%f",&c);
+    printf("Selling price : ");
+    scanf("%f",&s);
+    n=s-c;
+    if(n<0){
+        n=-1*n;
+        printf("The loss is %f",n);
+    }
+    else{
+        printf("The profit is %f",n);
+    }
+    
