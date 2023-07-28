@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+   float a;
+   printf("The number is ");
+   scanf("%f",&a);
+   int b=a;
+   float c= a-b;
+   printf("The main part is %d",b);
+   printf("\nThe rest part is %f",c);
+
+    return 0;
+}
