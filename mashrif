@@ -1,0 +1,18 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int x;
+    printf("Do you miss Mashrif? \n If yes type 0 \n If No type 1 \n Enter :");
+    scanf("%d",&x);
+    if(x==1){
+        printf("Good Boy");
+    }
+    else{
+        printf("Hop,toreo restricted kora lagbe");
+    }
+
+
+    return 0;
+}
