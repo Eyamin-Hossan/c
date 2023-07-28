@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,ar,per;
+    printf("The length : ");
+    scanf("%d",&a);
+    printf("The breadth :");
+    scanf("%d",&b);
+    ar=a*b;
+    per=2*(a+b);
+    if(ar>per){
+        printf("The area of the ractangle is greatrer than its perimeter");
+    }
+    else{
+         printf("The perimeter of the ractangle is greatrer than its area");
+    }
+    
+    return 0;
+}
