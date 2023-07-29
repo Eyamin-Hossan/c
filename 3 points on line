@@ -1,0 +1,26 @@
+
+#include<stdio.h>
+int main(){
+    
+    int x1,y1,x2,y2,x3,y3;
+    printf("1st Point :");
+    scanf("%d,%d",&x1,&y1);  
+    printf("2nd Point :");
+    scanf("%d,%d",&x2,&y2);
+    printf("3rd Point :");
+    scanf("%d,%d",&x3,&y3);
+    
+   
+    float m1=(y1-y2)*(x1-x3); //slope 1*2
+    float m2=(y1-y3)*(x1-x2); //slope 2*1
+    
+    if (m1==m2){
+        printf("All are on one line");
+    }
+    else{
+        printf("All are not on one line");
+    }
+    
+
+    return 0;
+}
