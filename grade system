@@ -1,0 +1,24 @@
+// else if
+
+#include<stdio.h>
+int main(){
+    
+    int n;
+    printf("Mark :");
+    scanf("%d",&n);
+    
+    if(n>=80){
+        printf("A+");
+    }
+    else if(n>=60){
+        printf("B");
+    }
+    else if(n>=40){
+        printf("C");
+    }
+    else{
+        printf("F");
+    }
+    
+    return 0;
+}
