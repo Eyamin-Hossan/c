@@ -1,0 +1,19 @@
+// predict the output
+
+#include <stdio.h>
+
+int main()
+{
+    int x=3,y,z;
+    
+    y=x=10;
+    //last one is counted
+    
+    z=x<10;
+    //boolean true=1 flase=0
+    
+    
+    printf("\nx=%d y=%d z=%d",x,y,z);
+
+    return 0;
+}
