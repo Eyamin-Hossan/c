@@ -1,0 +1,24 @@
+// the real thing
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    char ch='a';
+    
+    if(3+2%5)
+    printf("It works\n");
+    
+    if(a=10)
+    printf("It also works\n");
+    
+    if(-10)
+    printf("even It also works\n");
+    
+    if(ch='A')
+    printf("It also works\n");
+    
+
+    return 0;
+}
