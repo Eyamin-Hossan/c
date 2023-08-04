@@ -1,0 +1,19 @@
+//DISPLAY  the AP 4,7,10,13,16,.....
+// an= a+ (n-1)d
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("How many terms :");
+    scanf("%d",&n);
+    
+    for(int i=4; i<=1+3*n; i=i+3){
+        
+        printf(" %d ",i);
+        
+    }
+    
+    return 0;
+}
