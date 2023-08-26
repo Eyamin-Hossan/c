@@ -2,16 +2,13 @@
 
 int main()
 {
-    //printf("Hello World\n");
     int n;
     printf ("How many times : ");
     scanf("%d",&n);
     
-    for(int i=1; i<=n; i++){     //i++ and i=i+1 are same
+    for(int i=1; i<=n; i++){ 
         printf("Hi\n");
-        
-        
-    }
+          }
     
 
     return 0;
